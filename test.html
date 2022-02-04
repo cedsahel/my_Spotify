@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .audio{
+        height: 100px;
+        background-color: #181818;
+        border-bottom: solid #282828;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        color: #FFF;
+
+    }
+    .photo{
+        width: 60px;
+        height: 60px;
+        background-color: red;
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+    }
+
+    .controls{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .test{
+        width: 400px;
+    }
+    
+
+</style>
+<body>
+    <div class="audio">
+        <div class="left">
+            <div class="photo"></div>
+            <div class="desc">
+                <p>Paulette</p>
+                <p>Bramsito</p>
+            </div>
+            <p class="like">c3</p>
+        </div>
+        <div class="controls">
+            <button>play/pause</button>
+            <input class="test" type="range">
+            <audio controls autoplay src="http://he3.magnatune.com/all/13-Soupy%20Sails-Zilla.mp3"></audio>
+        </div>
+        <div class="right">
+            <input  type="range">
+        </div>
+    </div>
+</body>
+</html>

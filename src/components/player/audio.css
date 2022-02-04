@@ -1,0 +1,28 @@
+.audio {
+    height: 90px;
+    background-color: #181818;
+    border-top: solid #282828;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.covermini{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+
+.left{
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Roboto', sans-serif;
+}
+
+.track{
+    margin-left: 12px;
+}

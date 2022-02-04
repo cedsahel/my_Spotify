@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    min-width: 160px;
+    color: #FFF;
+    padding: 20px;
+
+}
+.sidebar a{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+
+}
+.aze{
+    position: sticky;
+    top: 20px;
+}
+.nav {
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Dongle', sans-serif;
+
+}
+
+
+ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.sidebar a:hover{
+    color: #FFF;
+}

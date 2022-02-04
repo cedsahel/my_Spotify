@@ -1,0 +1,36 @@
+.search {
+    background-color: #121212;
+    min-height: 100vh;
+    color: #FFF;
+    padding: 20px;
+}
+
+.search h1 {
+    font-size: 50px;
+}
+
+.categoriesCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.categoryCard{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    background-color: #1ed760;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.categoryCard a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    padding-right: 15px;
+}

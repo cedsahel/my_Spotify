@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.album {
+    background-color: #121212;
+    min-height: 100vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cover{
+    background: rgb(18,18,18);
+    background: linear-gradient(356deg, rgba(18,18,18,1) 0%, rgba(126,206,207,1) 90%); 
+    height: 300px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cover img {
+    box-shadow: 0px 0px 29px 8px rgba(0,0,0,0.52);
+}
+
+.options{
+    display: flex;
+}
+
+.option{
+    margin-right: 10px;
+}
+.cover h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+
+.desc{
+     margin-left: 20px;
+ }
+
+ .desc h2{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tracks{
+    padding: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 1em;
+}
+
+th{
+    color: rgb(119, 119, 119);
+    text-align: left;
+    border-bottom: 1px solid rgb(119, 119, 119);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trackList{
+    margin-top: 50px;
+}
+
+td {
+    padding: 5px;
+}
+
+tbody tr{
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+tbody tr:hover{
+    background-color: #2a2a2a;
+}
+
+.borderLeft{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.borderRight{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
